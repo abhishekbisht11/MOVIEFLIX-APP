@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Pattaya&family=Reggae+One&display=swap');
+.header {
+  width: 100%;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  background-image:url('Black-Purple-Wallpaper-26-1920x1200.jpg');
+  font-family: 'Reggae One', cursive;
+  font-size: 5vw;
+  padding-bottom: 1px;
+  box-shadow: 0px 1px 5px rgb(255, 0, 0);
+  color: rgb(255, 5, 5);
+  z-index: 100;
+  font-weight: 1000;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 6.4vw;
+  }
+}
